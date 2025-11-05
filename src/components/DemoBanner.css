@@ -1,0 +1,61 @@
+.demo-banner {
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+  border-radius: 15px;
+  padding: 15px 25px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 15px rgba(251, 191, 36, 0.3);
+}
+
+.demo-content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #78350f;
+}
+
+.demo-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.demo-text {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.demo-text strong {
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.demo-link {
+  color: #78350f;
+  font-weight: 700;
+  text-decoration: underline;
+  margin: 0 5px;
+  transition: color 0.3s ease;
+}
+
+.demo-link:hover {
+  color: #451a03;
+}
+
+@media (max-width: 768px) {
+  .demo-banner {
+    padding: 12px 20px;
+    margin-bottom: 15px;
+  }
+
+  .demo-content {
+    gap: 10px;
+  }
+
+  .demo-icon {
+    font-size: 1.2rem;
+  }
+
+  .demo-text {
+    font-size: 0.85rem;
+  }
+}
+
